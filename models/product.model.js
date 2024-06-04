@@ -2,6 +2,12 @@ const mongoose = require("mongoose");
 
 const ProductSchema = mongoose.Schema(
 {
+     eindat: {
+           type: Date,
+           required: true,
+
+         },
+
      autor: {
       type: String,
       required: true,
