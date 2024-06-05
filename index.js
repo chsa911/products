@@ -31,9 +31,10 @@ app.post("/api/products",(req,res) => {
     var zeit=req.body.zeit
     var amalin=req.body.amalin
     var position=req.body.position
-    var kontinent=req.body.kontinent
-    var land=req.body.land
-    var thema0=req.body.thema0
+
+    var mark=req.body.mark
+    var markrang=req.body.markrang
+    var topw=req.body.topw
     var thema1=eq.body.thema1
     var thema2=req.body.thema2
 
@@ -70,9 +71,9 @@ app.post("/api/products",(req,res) => {
         "zeit":zeit,
         "amalin""=req.body.amalin
         "position"=req.body.position
-        "kontinent":kontinent
-        "land":land,
-        "thema0"=req.body.thema0
+        "mark":mark
+        "markrang":markrang,
+        "topw"=req.body.topw
         "thema1"=eq.body.thema1
 
     }
